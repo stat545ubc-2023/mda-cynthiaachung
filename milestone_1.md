@@ -436,10 +436,13 @@ histogram <- apt_buildings %>%
   ggplot(aes(year_built), # plotting with the year built as the x-axis
          after_stat(count)) + # by frequency
   geom_histogram(bins = 43) # creates a histogram plot, histogram intervals are every ~5 years
+```
+
+``` r
 print(histogram)
 ```
 
-![](milestone_1_files/figure-gfm/unnamed-chunk-6-1.png)<!-- -->
+![](milestone_1_files/figure-gfm/unnamed-chunk-7-1.png)<!-- -->
 
 **Reasoning:** I chose to create a histogram of apartment buildings
 because I wanted to see the distribution of when apartment buildings
@@ -455,10 +458,13 @@ scatter <- apt_buildings %>%
              group = ward, fill = ward)) + # colour-coded by ward
   geom_density(alpha = 0.5) + # creates a density plot at half transparency
   facet_wrap(~ward) # separates into panels based on ward
+```
+
+``` r
 print(scatter)
 ```
 
-![](milestone_1_files/figure-gfm/unnamed-chunk-7-1.png)<!-- -->
+![](milestone_1_files/figure-gfm/unnamed-chunk-9-1.png)<!-- -->
 
 **Reasoning:** I chose to plot a density plot of number of storeys for
 each ward because I wanted to explore how tall the apartment buildings
@@ -473,10 +479,13 @@ bar <- apt_buildings %>%
              fill = heating_type, colour = heating_type)) + # colour-coded by heating type
   geom_bar(aes(y=after_stat(prop)), # by proportion
            alpha = 0.5) # creates a bar plot at half transparency
+```
+
+``` r
 print(bar)
 ```
 
-![](milestone_1_files/figure-gfm/unnamed-chunk-8-1.png)<!-- -->
+![](milestone_1_files/figure-gfm/unnamed-chunk-11-1.png)<!-- -->
 
 **Reasoning:** I chose to create this graph because I wanted to see if
 when an apartment building was built would influence the heating system
