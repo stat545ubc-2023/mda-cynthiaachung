@@ -1,6 +1,7 @@
 ---
 title: "Mini Data-Analysis Deliverable 1"
 output: github_document
+self_contained: true
 editor_options: 
   markdown: 
     wrap: sentence
