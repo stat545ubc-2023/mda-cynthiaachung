@@ -98,22 +98,27 @@ And that is exactly the first thing that you will do!
 <!-------------------------- Start your work below ---------------------------->
 
 ```{r}
-### EXPLORE HERE ###
 # apt_buildings
 class(apt_buildings)
 glimpse(apt_buildings)
 sum(is.na(apt_buildings))/(NROW(apt_buildings)*NCOL(apt_buildings))
+```
 
+```{r}
 # cancer_sample
 class(cancer_sample)
 glimpse(cancer_sample)
 sum(is.na(cancer_sample))/(NROW(cancer_sample)*NCOL(cancer_sample))
+```
 
+```{r}
 # vancouver_trees
 class(vancouver_trees)
 glimpse(vancouver_trees)
 sum(is.na(vancouver_trees))/(NROW(vancouver_trees)*NCOL(vancouver_trees))
+```
 
+```{r}
 # flow_sample
 class(flow_sample)
 glimpse(flow_sample)
