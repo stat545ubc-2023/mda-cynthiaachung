@@ -283,12 +283,16 @@ print(bar)
 fire_safe_apt <- apt_buildings %>%
   filter(fire_alarm == "YES") %>% # filters for buildings with fire alarms
   filter(sprinkler_system == "YES") %>% # filters for buildings with exterior fire escapes
-  filter(emergency_power == "YES") # filters for buildings with sprinkle systems
+  filter(exterior_fire_escape == "YES") # filters for buildings with sprinkle systems
 
 non_fire_safe_apt <- apt_buildings %>%
   filter(fire_alarm == "NO") %>% # filters for buildings without fire alarms
   filter(sprinkler_system == "NO") %>% # filters for buildings without exterior fire escapes
-  filter(emergency_power == "NO") # filters for buildings without sprinkle systems
+  filter(exterior_fire_escape == "NO") # filters for buildings without sprinkle systems
+```
+```{r}
+glimpse(fire_safe_apt)
+glimpse(non_fire_safe_apt)
 ```
 
 **Reasoning:** For my initial research question, I explore the proportion of fire-safe apartment buildings in each ward, with fire-safe being defined as buildings with a fire alarm, an exterior fire escape, and a sprinkler system.
