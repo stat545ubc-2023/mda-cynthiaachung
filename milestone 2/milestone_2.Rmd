@@ -270,7 +270,7 @@ If your data is untidy, then tidy it! Then, untidy it back to it's original stat
 Be sure to explain your reasoning for this task. Show us the "before" and "after".
 
 <!--------------------------- Start your work below --------------------------->
-**Reasoning:** I will be tidying the data and then untidying it to its original state. As I mentioned above, "amenities" and "bike_parking" are untidy variables. This is because both consists of multiple observations; for example, bike_parking lists both inside and outside bike parking. Therefore, to tidy this I will be splitting amenities to five separate columns - one for child play area, one for exercise rooms, one for sauna, one for pools, and one for recreation. I will also be splitting bike_parking to two separate columns - one for indoor bike parking, and one for outdoor bike parking.
+**Reasoning:** I will be tidying the data and then untidying it to its original state. As I mentioned above, "amenities" and "bike_parking" are untidy variables. This is because both consists of multiple observations; for example, bike_parking lists both inside and outside bike parking. Therefore, to tidy this, I will be splitting amenities to five separate columns - one for child play area, one for exercise rooms, one for sauna, one for pools, and one for recreation. I will also be splitting bike_parking to two separate columns - one for indoor bike parking, and one for outdoor bike parking.
 
 #### Subsetting Data
 ```{r}
