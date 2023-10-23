@@ -12,5 +12,7 @@ File Name | Purpose
 README.md | A markdown file that provides an overview of the mini-data analysis assignment, as well as the files within the associated GitHub repository
 milestone_1.md | A markdown file that contains an initial exploratory analysis required for Milestone 1. Though there were glimpses into multiple semi-tidy datasets, the majority of the analyis was done on the *apt_buildings* dataset—courtesy of The City of Toronto's Open Data Portal. The contents of this is identical to that of "milestone_1.Rmd".
 milestone_1.Rmd | A markdown file that contains an initial exploratory analysis required for Milestone 1. Though there were glimpses into multiple semi-tidy datasets, the majority of the analyis was done on the *apt_buildings* dataset—courtesy of The City of Toronto's Open Data Portal. The contents of this is identical to that of "milestone_1.md".
+milestone_2.md | A markdown file that contains the exploratory analysis required for Milestone 2. All of the analyis was done on the *apt_buildings* dataset—courtesy of The City of Toronto's Open Data Portal. The contents of this is identical to that of "milestone_2.Rmd".
+milestone_2.Rmd | A markdown file that contains an initial exploratory analysis required for Milestone 1. All of the analyis was done on the *apt_buildings* dataset—courtesy of The City of Toronto's Open Data Portal. The contents of this is identical to that of "milestone_2.md".
 
 **Note:** If you are interested in running the code that appears in this folder/GitHub repository, you can either clone it or download it. 
